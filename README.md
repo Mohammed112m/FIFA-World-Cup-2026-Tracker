@@ -7,9 +7,10 @@ A full-stack web application that allows users to explore all matches of the FIF
 Users can:
 
 * Sign up and log in
-* View all matches with detailed info
+* View all matches And new News with detailed info
 * Explore stadiums and cities
 * Discover events related to matches and external city activities
+* Also the user can make message in Community Chat
 
 ---
 
@@ -46,6 +47,11 @@ Users can:
 
 * View all activities happening in each city
 
+
+  ### Community Chat
+
+  * The use can see and write comments
+
 ---
 
 ## 🛠 Tech Stack
@@ -65,6 +71,11 @@ Users can:
 
 * MongoDB + Mongoose
 
+
+### Doployment
+
+* netiflly
+* Reander
 ---
 
 ## 📂 Project Structure
@@ -83,7 +94,7 @@ Users can:
 
 * Favorite matches
 * Notifications
-* Map integration (Google Maps)
+
 
 ---
 
