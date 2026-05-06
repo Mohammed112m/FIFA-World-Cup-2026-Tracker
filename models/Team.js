@@ -17,6 +17,14 @@ const teamSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    flag:{
+      type:String,
+      required: true
+    },
+    groups:{
+      type:String,
+      required:true
+    }
   },
   { timestamps: true }
 )

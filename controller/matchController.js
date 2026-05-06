@@ -44,7 +44,7 @@ const getAllMatch = async (req, res) => {
 const getMatchById = async (req, res) => {
   try {
     const match = await Match.findById(req.prams.id)
-      .populate("team1")
+      .populate("team1") // (populate give you all data for this id)
       .populate("team2")
       .populate("stadium")
 
