@@ -30,6 +30,9 @@ Users can:
   * Stadium & city
   * Seat capacity
   * Stadium area
+  * coach
+  * Flag
+  * Groups
 
 ### 🏟 Stadiums
 
@@ -37,6 +40,7 @@ Users can:
 * Location (city)
 * Capacity
 * Area size
+* events
 
 ### 🎉 Events
 
@@ -50,7 +54,7 @@ Users can:
 
   ### Community Chat
 
-  * The use can see and write comments
+  * The user can see and write comments
 
 ---
 
@@ -59,13 +63,13 @@ Users can:
 ### Frontend
 
 * React
-* Axios
 * React Router
 
-### Backend
+###  Backend
 
 * Node.js
 * Express.js
+* socket.js
 
 ### Database
 
@@ -84,9 +88,11 @@ Users can:
 /components
 /pages
 /server
-/controllers
+/controller
 /models
 /routes
+/middleware
+
 
 ---
 
@@ -98,6 +104,6 @@ Users can:
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Done BY
 
 Mohammed Hamood
