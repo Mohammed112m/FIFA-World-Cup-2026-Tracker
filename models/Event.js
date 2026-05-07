@@ -22,12 +22,12 @@ const eventSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    Location: {
+    location: {
       type: String,
       required: true,
     },
     date: {
-      type: date,
+      type: Date,
     },
     match: {
       type: mongoose.Schema.Types.ObjectId,

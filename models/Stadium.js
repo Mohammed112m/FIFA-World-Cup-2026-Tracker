@@ -22,7 +22,7 @@ const stadiumSchema = new mongoose.Schema({
     required: true,
   },
 
-  Location: {
+  location: {
     type: String,
     required: true
   },

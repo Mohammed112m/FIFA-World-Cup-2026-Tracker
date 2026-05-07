@@ -43,8 +43,8 @@ const getAllMatch = async (req, res) => {
 
 const getMatchById = async (req, res) => {
   try {
-    const match = await Match.findById(req.prams.id)
-      .populate("team1")
+    const match = await Match.findById(req.params.id)
+      .populate("team1") // (populate give you all data for this id)
       .populate("team2")
       .populate("stadium")
 
@@ -61,7 +61,7 @@ const getMatchById = async (req, res) => {
 
 //////////////here we update the match//////////////////////////
 
-const updateMatch = async (React, res) => {
+const updateMatch = async (req, res) => {
   try {
     const updateMatch = await Match.findByIdAndUpdate(req.params.id, req.body, {
       new: true,
