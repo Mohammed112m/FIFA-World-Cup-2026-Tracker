@@ -15,14 +15,17 @@ const getAllUsers = async (req, res) => {
 
 const getUserById = async (req, res) => {
   try {
+    const user = await User.findById(req.params.id).select("-password")
+
     if (!user) {
       return res
-        .status(400)
-        .send({ status: "errors", message: "User Not Found" })
+        .status(404)
+        .json({ status: "error", message: "User not found" })
     }
-    res.status(200).send(user)
+    res.status(200).json(user)
   } catch (error) {
-    res.status(500).send({ status: " error", message: "error user " })
+    console.log(error)
+    res.status(500).json({ status: "error", message: "Error getting user" })
   }
 }
 
