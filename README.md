@@ -2,7 +2,7 @@
 
 ## 📌 Project Description
 
-A full-stack web application that allows users to explore all matches of the FIFA World Cup 2026, including teams, stadiums, match schedules, and events.
+A full-stack web application that allows users to explore FIFA World Cup 2026 matches, teams, stadiums, schedules, events, and interact through a real-time community chat.
 
 Users can:
 
@@ -52,7 +52,7 @@ Users can:
 * View all activities happening in each city
 
 
-  ### Community Chat
+  ### 💬 Community Chat
 
   * The user can see and write comments
 
@@ -69,17 +69,20 @@ Users can:
 
 * Node.js
 * Express.js
-* socket.js
+* Socket.IO
+* RESTful API
+* CRUD Operations
+* Real-time messaging using Socket.IO
 
 ### Database
 
 * MongoDB + Mongoose
 
 
-### Doployment
+### Deployment
 
-* netiflly
-* Reander
+* Netlify
+* Render
 ---
 
 ## 📂 Project Structure
